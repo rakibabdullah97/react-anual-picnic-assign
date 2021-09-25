@@ -1,0 +1,10 @@
+.plan-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.student-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}

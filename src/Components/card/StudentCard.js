@@ -2,7 +2,7 @@ import React from 'react';
 import './StudentCard.css'
 
 const StudentCard = (props) => {
-    // deconstruction done here
+    // deconstruction is done here
     const { name, img, grade, Roll, Location, fare } = props.plan
 
 
